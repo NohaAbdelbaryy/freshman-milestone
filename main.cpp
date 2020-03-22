@@ -26,11 +26,12 @@ int main()
 	Font font;
 	if (font.loadFromFile("pong/font.ttf"))
 		cout << "font loaded\n";
+
 	Text score;
 	score.setFont(font);
-	score.setCharacterSize(50);
-	score.setFillColor(Color::White);
-	score.setPosition(350, 20);
+	score.setCharacterSize();
+	score.setFillColor();
+	score.setPosition();
 	
 
 	//textures
@@ -41,12 +42,9 @@ int main()
 
 	//position
 
-	//key variables
+	// variables
+	int highscore;
 
-	bool up1 = false, down1 = false, down2 = false, up2 = false;
-	
-	int velocityY2, velocityY1,velocityXBall=6, velocityYBall=-6;
-	int score1 = 10, score2 = 0, highscore ;
 	
 	//game loop
 
@@ -65,18 +63,12 @@ int main()
 			
 	/*		if (event.type == Event::KeyPressed)
 			{
-				if (event.key.code == Keyboard::Up) up1 = true;
-				if (event.key.code == Keyboard::S) down2 = true;
-				if (event.key.code == Keyboard::W) up2 = true;
-				if (event.key.code == Keyboard::Down) down1 = true;
+				
 			}
 
 			if (event.type == Event::KeyReleased)
 			{
-				if (event.key.code == Keyboard::Up) up1 = false;
-				if (event.key.code == Keyboard::S) down2 = false;
-				if (event.key.code == Keyboard::W) up2 = false;
-				if (event.key.code == Keyboard::Down) down1 = false;
+				
 			}
 	*/	}
 
@@ -85,12 +77,14 @@ int main()
 
 
 
-		//velocity change
+		//velocity change on collision
+
+
 		
 		//movement
 		
 		
-		
+		//highest score
 		ifstream readFile;
 		readFile.open("pong/highscore.txt");
 
@@ -106,18 +100,18 @@ int main()
 
 		readFile.close();
 
-		if (score1 > highscore)
+		if (/*name of score*/ > highscore)
 
-			highscore = score1;
+			highscore = /*name of score*/;
 
 		ofstream writeFile;
 		writeFile.open("pong/highscore.txt");
 
 		if (writeFile.is_open())
 		{
-			if (score1 > highscore)
+			if (/*name of score*/ > highscore)
 
-				highscore = score1;
+				highscore =/*name of score*/;
 
 
 		}
@@ -125,21 +119,29 @@ int main()
 
 		writeFile.close();
 
+
+
+
 		window.clear();
 	
 		//drawing
 
-		/*window.draw(background);
-		window.draw(rectangle1);
-		window.draw(rectangle2);
-		window.draw(ball);
+		/*
+		window.draw();
+		window.draw();
+		window.draw();
+		window.draw();
 		*/
-		//string 
-		stringstream padscores;
-		padscores << highscore;
-		score.setString(padscores.str());
-	
-		window.draw(score); 
+
+
+		//string drawing 
+		stringstream highest;
+		highest << highscore;
+		/*name of text*/.setString(highest.str());
+
+		window.draw(/*name of text*/); 
+
+
 		window.display();
 		
 	}
