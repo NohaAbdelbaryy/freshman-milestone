@@ -56,7 +56,9 @@ int main()
 		Event event;
 		while (window.pollEvent(event))
 		{
-			//event processing
+			//event
+
+
 			if (event.type == Event::Closed)
 				window.close();
 
