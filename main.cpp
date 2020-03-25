@@ -23,15 +23,16 @@ int main()
 	//text
 
 
-	Font font;
-	if (font.loadFromFile("pong/font.ttf"))
+	/*Font font;
+	if (font.loadFromFile(""))
 		cout << "font loaded\n";
+*/
 
 	Text score;
-	score.setFont(font);
+	/*score.setFont(font);
 	score.setCharacterSize();
 	score.setFillColor();
-	score.setPosition();
+	score.setPosition();*/
 	
 
 	//textures
@@ -40,9 +41,10 @@ int main()
 	//setting textures
 
 
-	//position
+	//setting initial position
 
 	// variables
+
 	int highscore;
 
 	
@@ -52,6 +54,7 @@ int main()
 	{
 		
 		Event event;
+	
 		while (window.pollEvent(event))
 		{
 			//event
@@ -79,12 +82,14 @@ int main()
 
 		//velocity change on collision
 
+		
 
 		
 		//movement
 		
 		
 		//highest score
+		
 		ifstream readFile;
 		readFile.open("pong/highscore.txt");
 
@@ -100,24 +105,24 @@ int main()
 
 		readFile.close();
 
-		if (/*name of score*/ > highscore)
+		//if (/*name of score*/ > highscore)
 
-			highscore = /*name of score*/;
+		//	highscore = /*name of score*/;
 
-		ofstream writeFile;
-		writeFile.open("pong/highscore.txt");
+		//ofstream writeFile;
+		//writeFile.open("pong/highscore.txt");
 
-		if (writeFile.is_open())
-		{
-			if (/*name of score*/ > highscore)
+		//if (writeFile.is_open())
+		//{
+		//	if (/*name of score*/ > highscore)
 
-				highscore =/*name of score*/;
+		//		highscore =/*name of score*/;
 
 
-		}
-		writeFile << highscore;
+		//}
+		//writeFile << highscore;
 
-		writeFile.close();
+		//writeFile.close();
 
 
 
@@ -135,11 +140,11 @@ int main()
 
 
 		//string drawing 
-		stringstream highest;
-		highest << highscore;
-		/*name of text*/.setString(highest.str());
+		//stringstream highest;
+		//highest << highscore;
+		// /*name of text*/.setString(highest.str());
 
-		window.draw(/*name of text*/); 
+		//window.draw(/*name of text*/); 
 
 
 		window.display();
