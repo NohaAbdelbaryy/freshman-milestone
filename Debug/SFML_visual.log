@@ -1,0 +1,75 @@
+﻿  main.cpp
+c:\users\envy\source\repos\sfml_visual\main.cpp(164): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\envy\source\repos\sfml_visual\main.cpp(235): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(244): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(261): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(272): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(286): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\envy\source\repos\sfml_visual\main.cpp(347): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\envy\source\repos\sfml_visual\main.cpp(352): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\envy\source\repos\sfml_visual\main.cpp(596): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(597): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(678): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\envy\source\repos\sfml_visual\main.cpp(827): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\envy\source\repos\sfml_visual\main.cpp(1154): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(1155): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\envy\source\repos\sfml_visual\main.cpp(1160): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(1161): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\envy\source\repos\sfml_visual\main.cpp(1166): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(1167): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\envy\source\repos\sfml_visual\main.cpp(1172): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(1173): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\envy\source\repos\sfml_visual\main.cpp(1299): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(1362): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\envy\source\repos\sfml_visual\main.cpp(1411): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\envy\source\repos\sfml_visual\main.cpp(1531): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\envy\source\repos\sfml_visual\main.cpp(1532): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  SFML_visual.vcxproj -> C:\Users\ENVY\source\repos\SFML_visual\Debug\SFML_visual.exe

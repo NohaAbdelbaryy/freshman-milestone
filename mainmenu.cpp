@@ -22,12 +22,12 @@ mainmenu::mainmenu(float height, float width)
 	mainmenuarr[0].setFont(font);
 	mainmenuarr[0].setColor(sf::Color::Blue);
 	mainmenuarr[0].setString("Play");
-	mainmenuarr[0].setCharacterSize(40);
+	mainmenuarr[0].setCharacterSize(50);
 	mainmenuarr[0].setPosition(sf::Vector2f(350, 210));
 
 
 
-	//option
+	//guide
 
 	mainmenuarr[1].setFont(font);
 	mainmenuarr[1].setColor(sf::Color::White);
